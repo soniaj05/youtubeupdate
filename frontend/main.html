@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Main Page</h1>
+        <form id="videoForm">
+            <label for="url">Video URL:</label>
+            <input type="text" id="url" name="url" required>
+            
+            <button type="submit">Submit URL</button>
+        </form>
+        <br>
+        <form id="questionForm">
+            <label for="question">Question:</label>
+            <input type="text" id="question" name="question" required>
+            
+            <button type="submit">Ask Question</button>
+        </form>
+        <br>
+        <div id="response"></div>
+        <button id="logoutButton">Logout</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
